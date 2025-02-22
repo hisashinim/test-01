@@ -1,0 +1,26 @@
+.parent {
+    width: 500px;
+    height: 500px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    /* flex-direction: column; */
+    position: absolute;
+}
+.one,
+.two,
+.three {
+    width: 100px;
+    height: 100px;
+}
+.one {
+    background-color: orange;
+}
+.two {
+    background-color: red;
+}
+.three {
+    background-color: greenyellow;
+}
